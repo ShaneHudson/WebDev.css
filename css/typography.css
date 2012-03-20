@@ -1,0 +1,95 @@
+/* ------------------------------------------------------------------------
+ * This stylesheet is loosely based upon the Foundation template by Zurb
+ * Any other credit due will be commented inline and/or in humans.txt
+ *
+ * Some practises used in this stylesheet are based upon Harry Roberts'
+ * Pragmatic font sizing: http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
+ *
+ * Date: 2012.03.05
+ * ---------------------------------------------------------------------- */
+
+html    {
+    font-size: 62.5%; 
+}
+
+body    {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.giga    {
+    font-size: 30px; 
+    font-size: 3rem; 
+    margin: 12px 0;
+}
+
+.mega    {
+    font-size: 28px; 
+    font-size: 2.8rem; 
+    margin: 12px 0;
+}
+
+.kilo    {
+    font-size: 26px; 
+    font-size: 2.6rem; 
+    margin: 12px 0;
+}
+
+h1,
+.alpha    {
+    font-size: 24px; 
+    font-size: 2.4rem; 
+    margin: 12px 0;
+}
+
+h2,
+.beta    { 
+    font-size: 22px; 
+    font-size: 2.2rem; 
+    margin: 9px 0; 
+}
+
+h3,
+.gamma    { 
+    font-size: 20px; 
+    font-size: 2rem; 
+    margin-bottom: 9px; 
+}
+
+h4,
+.delta    { 
+    font-size: 18px; 
+    font-size: 1.8rem; 
+    margin: 3px 0;
+}
+
+h5,
+.epsilon    { 
+    font-size: 18px; 
+    font-size: 1.8rem; 
+    font-weight: normal; 
+    margin-bottom: 3px;  
+}
+
+h6,
+.zeta    { 
+    font-size: 16px; 
+    font-size: 1.6rem; 
+    font-weight: normal; 
+}
+
+p { 
+    font-size: 14px; 
+    font-size: 1.4rem; 
+    line-height: 1.25; 
+    margin: 0 0 18px; 
+}
+
+small,
+.milli    {
+    font-size: 12px; 
+    font-size: 1.2rem; 
+}
+
+strong    {
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+/* This file is used to credit everybody involved in the creation of the website */
+/* humanstxt.org */
+
+/* SITE */
+  Designer: 
+      - Shane Hudson (http://www.shanehudson.net - @ShaneHudson)
+      
+  Developer: 
+      - Shane Hudson (http://www.shanehudson.net - @ShaneHudson)
+      
+  Standards: 
+      - HTML5
+      - CSS3
+      
+  Components: 
+      - Grid based on Toast (Dan Eden http://www.daneden.me); license: http://unlicense.org/
+      - Typography.css loosely based on Foundation Template by ZURB; MIT license
+            
+  Software: 
+      - Espresso
+      
+  Images:
+      -Wooden Texture by Elemis http://subtlepatterns.com/?p=1104; Creative Commons Attribution 3.0 Unported License
