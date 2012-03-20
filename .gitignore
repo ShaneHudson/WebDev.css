@@ -1,3 +1,4 @@
 images/
 *.esproj
 .DS_Store
+.gitignore
