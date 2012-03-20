@@ -1,3 +1,5 @@
 images/
 *.esproj
 .DS_Store
+index.html
+about.html

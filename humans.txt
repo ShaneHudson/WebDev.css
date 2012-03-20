@@ -13,11 +13,12 @@
       - CSS3
       
   Components: 
-      - Grid based on Toast (Dan Eden http://www.daneden.me); license: http://unlicense.org/
+      - Grid based on Toast (Dan Eden http://www.daneden.me/toast); license: http://unlicense.org/
       - Typography.css loosely based on Foundation Template by ZURB; MIT license
+      - Animate.css by Dan Eden (http://www.daneden.me/animate); MIT license
             
   Software: 
       - Espresso
       
   Images:
-      -Wooden Texture by Elemis http://subtlepatterns.com/?p=1104; Creative Commons Attribution 3.0 Unported License
+      -
