@@ -2,7 +2,9 @@
  * This stylesheet is based upon a personal base project by Shane Hudson
  * Any other credit due will be commented inline and in humans.txt
  *
- * Date: 2012.03.05
+ * This stylesheet should include most of your styles
+ *
+ * Date: 2012.03.20
  *
  *
  * Table of Contents:
@@ -14,7 +16,15 @@
  * :: Common Styles
  * ---------------------------------------------------------------------- */
 
-.right    {
+.hidden  {
+    display: none; /* Use with care. Remember screen readers. */
+}
+
+.left  {
+    right:  left;
+}
+
+.right  {
     float:  right;
 }
 
@@ -22,25 +32,11 @@ nav.across li  {
     display: inline-block;
 }
 
-nav.down li    {
+nav.down li  {
     display: block;
 }
 
-p    {
-    line-height: 20px;
-}
-
-a    {
-    color:  inherit;
-    border-bottom: 1px dotted;
-    text-decoration: none;
-}
-
-a:hover{
-    border:  0 none;
-}
-
-img    {
+img  {
     background: #F1F1EA;
     border: 1px solid #E2E3E1;
     padding: 5px;
@@ -51,138 +47,12 @@ img    {
  * :: Structure
  * ---------------------------------------------------------------------- */
    
-body    {
-    background: #fff url('../images/bg.png') repeat-x;
-    color: #3D453E;
+body  {
+
 }
 
-.container    {
-    background: #fff;
-    -moz-background-clip: padding; /* http://css-tricks.com/transparent-borders-with-background-clip */
-    -webkit-background-clip: padding;
-    background-clip: padding-box;
-    border: 10px solid  rgba(255,255,255,0.8);
-    margin: 20px auto;
-    max-width: 940px;
+  .container  { 
+    margin: 0 auto;
+    max-width:  960px;
     padding: 10px;
-}
-
-    header h1    {
-        padding:  15px 0;
-        margin-top: 0;
-    }
-    
-    .phonenumber    {
-        font-size: 26px;
-        font-size: 2.6rem;   
-        font-weight:  bold;
-        line-height: 75px;
-    }
-    
-    header a   {
-        border: 0 none;
-        color: #3D453E;
-        text-decoration: none;
-    }
-    
-    
-    header nav    {
-        background-color: #3d453e;
-    }
-        
-        header nav li a  {
-            color:  #fff;
-            display: block;
-            font-size: 14px;
-            font-size: 1.4rem;
-            padding: 20px;
-            text-decoration:  none;
-        }
-        
-        header nav li a:hover,
-        header nav li a:focus        {
-            background: #000;        
-        }
-                
-    .intro    {
-        background: url("../images/frog.jpg") no-repeat 50%;
-        height: 275px;
-    }
-    
-        
-        .intro h2   {
-            font-size: 46px; 
-            font-size: 4.6rem; 
-            margin-bottom: 12px;
-        }
-        
-        .intro article    {
-            background: rgba(0,0,0,0.4);
-            color: #fff;
-            padding: 15px;
-            margin-top: 30px;
-            width: 90%;
-            text-shadow: 0px 1px 1px #333;
-            filter: dropshadow(color=#333333, offx=0, offy=1);
-        }
-        
-    section   {
-        padding: 10px 10px 10px 0;    }
-    
-    section.friends   {
-        padding:  0;
-    }
-    
-    section.friends a    {
-        border: 0 none;
-    }
-    
-    section.friends img {
-    }
-    
-    ol li   {
-        padding: 10px 0;
-    }
-    
-    .button    {
-        background-color: #7C7C7C;
-        border-radius: 3px;
-        color: white;
-        font-size: 13px;
-        font-size: 1.3rem;
-        padding: 4px 7px;
-    }
-    
-    .button:hover    {
-        background-color: #4d4d4d;
-    }
-        
-        
-    .columns.gallery    {
-        background-color: #3D453E;
-        color:  #fff;
-    }
-    
-        .gallery h2    {
-            margin-left:  1.5%;
-        }
-    
-        .gallery ul li    {
-            margin-left: 1.5% !important;
-        }
-    
-    .home footer    {
-        border: 0 none;
-    }
-    
-    footer    {
-        border-top: 2px solid #3D453E;
-    }
-    
-        footer nav.across li    {
-            font-size: 14px;
-            font-size: 1.4rem;
-            padding: 10px 10px 0 0;
-        }
-        
-    
+  }

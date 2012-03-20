@@ -1,5 +1,4 @@
-images/
 *.esproj
 .DS_Store
-index.html
+front.html
 about.html
